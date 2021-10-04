@@ -1,33 +1,33 @@
 
-<p align="center"><a href="https://Drasthi&Jay.netlify.app/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://Drasthi&Jay.netlify.app/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: NOV 21, 2021 <br> <a href="https://Drasthi&Jay.netlify.app/">Drasthi&Jay.netlify.app</a></h1>
+<p align="center"><a href="https://jaygaur7.github.io/Wedding-Invitation-/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
+<h1 align="center"><a href="https://jaygaur7.github.io/Wedding-Invitation-/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: NOV 21, 2021 <br> <a href="https://jaygaur7.github.io/Wedding-Invitation-/">Drasthi&Jay.jaygaur7.github.io</a></h1>
 
- [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Wedding-Invitation?logo=github)](https://github.com/vinitshahdeo/Wedding-Invitation)
+ [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Wedding-Invitation?logo=github)](https://github.com/jaygaur7/Wedding-Invitation-)
 
 ## Wedding Invitation :ring:
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://Drasthi&Jay.netlify.app/"><img src="./assets/img/Drasthi&Jay.jpeg" /></a>
+  <a href="https://jaygaur7.github.io/Wedding-Invitation-/"><img src="./assets/img/Drasthi&Jay.jpeg" /></a>
 </details>
 
 With the divine grace of the almighty,
-inviting you and your family to Jay & Drasthi wedding to be held on **21st November at [Nokha](https://goo.gl/maps/5z5xX2hTYzU8VGEJ9) from 7:00 PM** onwards.
+inviting you and your family to Jay & Drasthi wedding to be held on **21st November at [Nokha](https://www.google.com/maps/place/Nokha/@27.552223,73.4699813,17z/data=!3m1!4b1!4m5!3m4!1s0x396aa962dc0fef7d:0x799c90a213e4d9d1!8m2!3d27.5522791!4d73.4721366) from 7:00 PM** onwards.
 
-- [Download](https://github.com/vinitshahdeo/vinitshahdeo/raw/master/docs/Sonali%20%26%20Gagan.pdf) the Invitation card
+- [Download](https://github.com/jaygaur7/Wedding-Invitation-/raw/master/invitation/Drasthi%20%26%20Jay.pdf) the Invitation card
 
-- Find [venue](https://goo.gl/maps/5z5xX2hTYzU8VGEJ9) on Google map
+- Find [venue](https://www.google.com/maps/place/Nokha/@27.552223,73.4699813,17z/data=!3m1!4b1!4m5!3m4!1s0x396aa962dc0fef7d:0x799c90a213e4d9d1!8m2!3d27.5522791!4d73.4721366) on Google map
 
-- Visit the [website](https://sonali.netlify.app/) for more details
+- Visit the [website](https://jaygaur7.github.io/Wedding-Invitation-/) for more details
 
 ```js
 
 const newCouple = 'Drasthi & Jay';
 
-// Nov 29, 2020
+// Nov 21, 2021
 const weddingDate = new Date(2021, 11, 21);
 
-// Wedding venue: https://goo.gl/maps/5z5xX2hTYzU8VGEJ9
+// Wedding venue: https://www.google.com/maps/place/Nokha/@27.552223,73.4699813,17z/data=!3m1!4b1!4m5!3m4!1s0x396aa962dc0fef7d:0x799c90a213e4d9d1!8m2!3d27.5522791!4d73.4721366
 const weddingVenue = new Location('Nokha');
 
 (function() {
@@ -35,7 +35,7 @@ const weddingVenue = new Location('Nokha');
 
     // your presence is requested
     (new Wedding()).acceptInvitation(
-        window.open('https://sonali.netlify.app/')
+        window.open('https://jaygaur7.github.io/Wedding-Invitation-/')
     );
 })();
 
@@ -47,14 +47,14 @@ const weddingVenue = new Location('Nokha');
 
 To reuse this, follow the steps:
 
-- *Replace the date in [script.js](https://github.com/vinitshahdeo/Wedding-Invitation/blob/master/js/script.js#L29) to have a timer running for your big day!*
+- *Replace the date in [script.js](https://github.com/jaygaur7/Wedding-Invitation-/blob/master/js/script.js#L29) to have a timer running for your big day!*
 
 ```js
 // Set the date we're counting down to
 var countDownDate = new Date("Nov 21, 2021 00:00:00").getTime();
 ```
 
-- *If you wish to change the track which plays on click, edit the `src` in [index.html](https://github.com/vinitshahdeo/Wedding-Invitation/blob/760c4aa437115fc365f5cb86a4b428b0e292b5ba/index.html#L69)*
+- *If you wish to change the track which plays on click, edit the `src` in [index.html](https://github.com/jaygaur7/Wedding-Invitation-/blob/master/index.html#L69)*
 
 ```html
 <div class="music">
